@@ -27,6 +27,7 @@ int main()
             if (array[i] == checkValue)
             {
                 cout << "Index no: " << i << ", Position: " << i + 1 << endl;
+                flag = 1;
             }
         }
         if (flag == 0)
